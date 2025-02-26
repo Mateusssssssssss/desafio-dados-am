@@ -133,7 +133,7 @@ SELECT product_line, gender, SUM(total) AS total_vendas
 FROM `eloquent-life-440311-t4.case_estagio.sales`
 GROUP BY product_line, gender;
 ```
-![Valor e Quantidade de vendas Masculinas](<iimage/Linhas de Produtos com maior valor arrecadado entre os homens.png>)
+![Valor e Quantidade de vendas Masculinas](<image/Linhas de Produtos com maior valor arrecadado entre os homens.png>)
 ![Valor e Quantidade de vendas Femininas](<image/Linhas de Produtos com maior valor arrecadado entre as mulheres.png>)
 
 # Comparação de vendas entre homens e mulheres
