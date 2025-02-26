@@ -153,7 +153,7 @@ SELECT product_line, gender, SUM(total) AS total_vendas
 # Usando Power Bi
 Ao abrir o dataset no Power BI, as colunas numéricas foram interpretadas como texto. Para corrigir isso, utilizei o Power Query para converter os dados de texto em valores numéricos decimais.
 
-![Link do Relatorio no Power Bi](https://app.powerbi.com/links/s7DMTmb9Jb?ctid=da49a844-e2e3-40af-86a6-c3819d704f49&pbi_source=linkShare&bookmarkGuid=618e5582-8146-4942-a83f-902e80c63439)
+[Link do Relatorio no Power Bi](https://app.powerbi.com/links/s7DMTmb9Jb?ctid=da49a844-e2e3-40af-86a6-c3819d704f49&pbi_source=linkShare&bookmarkGuid=618e5582-8146-4942-a83f-902e80c63439)
 
 
 # Arquivo extra
