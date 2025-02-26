@@ -73,8 +73,8 @@ SELECT
 FROM `eloquent-life-440311-t4.case_estagio.sales`
 ```
 
-![Arquivo antes do Filtro](data/supermarket_sales.csv)
-![Arquivo depois do filtro](data/supermarket_filter.csv)
+[Arquivo antes do Filtro](data/supermarket_sales.csv)
+[Arquivo depois do filtro](data/supermarket_filter.csv)
 
 
 # Para verificar media por linha de produtos:
