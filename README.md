@@ -1,7 +1,6 @@
 # Descrição dos dados obtidos no kaggle
 O crescimento dos supermercados na maioria das cidades populosas está aumentando e as competições de mercado também são altas. O conjunto de dados é uma das vendas históricas da empresa de supermercados que registrou em 3 filiais diferentes por 3 meses de dados. 
 
-![Link do Dataset no Kaggle]('https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales')
 
 # Criação das tabelas no PostgreSQL:
 ```sql
