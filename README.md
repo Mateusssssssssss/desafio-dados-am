@@ -98,7 +98,7 @@ SELECT product_line, SUM(total) AS total_vendas
 FROM `eloquent-life-440311-t4.case_estagio.sales`
 GROUP BY product_line;
 ```
-![Valor total de vendas por linha de produto](<image/valor de vendas por linha de produtos.png>)
+![Valor total de vendas por linha de produto](<image/Valor de Vendas por Linhas de Produtos.png>)
 
 # Quantidade total vendida por linha de produto:
 ```sql
@@ -106,7 +106,7 @@ SELECT product_line, SUM(quantity) AS total_quantidade
 FROM `eloquent-life-440311-t4.case_estagio.sales`
 GROUP BY product_line;
 ```
-![Quantidade total vendida por linha de produto](<image/Quantidades de itens vendidos por linha de produtos.png>)
+![Quantidade total vendida por linha de produto](<image/Quantidade de Itens vendidos por Linha de Produtos.png>)
 
 
 # Valor de Vendas por cidade
@@ -133,8 +133,8 @@ SELECT product_line, gender, SUM(total) AS total_vendas
 FROM `eloquent-life-440311-t4.case_estagio.sales`
 GROUP BY product_line, gender;
 ```
-![Valor e Quantidade de vendas Masculinas](<image/comparação entre valor e quantidade por homens.png>)
-![Valor e Quantidade de vendas Femininas](<image/comparação entre valor e quantidade por mulheres.png>)
+![Valor e Quantidade de vendas Masculinas](<iimage/Linhas de Produtos com maior valor arrecadado entre os homens.png>)
+![Valor e Quantidade de vendas Femininas](<image/Linhas de Produtos com maior valor arrecadado entre as mulheres.png>)
 
 # Comparação de vendas entre homens e mulheres
 
@@ -147,7 +147,7 @@ SELECT product_line, gender, SUM(total) AS total_vendas
 ```
 
 ![Valor de vendas por genero](<image/valor de vendas por sexo.png>)
-![Comparação entre Homens e Mulheres](<image/comparação de linhas de produtos vendidos entre mulher e homem.png>)
+![Comparação entre Homens e Mulheres](<image/comparaçao de linhas de produtos mais vendidos mulheres e homens.png>)
 
 
 # Usando Power Bi
