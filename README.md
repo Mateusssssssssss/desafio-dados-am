@@ -98,7 +98,7 @@ SELECT product_line, SUM(total) AS total_vendas
 FROM `eloquent-life-440311-t4.case_estagio.sales`
 GROUP BY product_line;
 ```
-![Valor total de vendas por linha de produto](<image\valor de vendas por linha de produtos.png>)
+![Valor total de vendas por linha de produto](<image/valor de vendas por linha de produtos.png>)
 
 # Quantidade total vendida por linha de produto:
 ```sql
@@ -106,7 +106,7 @@ SELECT product_line, SUM(quantity) AS total_quantidade
 FROM `eloquent-life-440311-t4.case_estagio.sales`
 GROUP BY product_line;
 ```
-![Quantidade total vendida por linha de produto](<image\Quantidades de itens vendidos por linha de produtos.png>)
+![Quantidade total vendida por linha de produto](<image/Quantidades de itens vendidos por linha de produtos.png>)
 
 
 # Valor de Vendas por cidade
