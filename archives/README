@@ -1,0 +1,69 @@
+
+# Análise de Vendas de Supermercado
+
+Este projeto realiza uma análise de vendas a partir de um conjunto de dados do supermercado. O código inclui a leitura de dados, análise de dados descritivos, detecção de outliers, visualização de gráficos e agregações para diversas variáveis, como filial, cidade, gênero, método de pagamento, entre outros.
+
+## Requisitos
+
+Para rodar este código, é necessário ter as seguintes bibliotecas Python instaladas:
+
+- pandas
+- matplotlib
+- seaborn
+
+Você pode instalar as dependências utilizando o seguinte comando:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+## Descrição do Código
+
+1. **Leitura de Dados:**
+   - O código lê um arquivo CSV com dados de vendas (`supermarket_sales.csv`).
+
+2. **Análise Inicial:**
+   - Exibe as 5 primeiras linhas do dataset.
+   - Verifica se há valores nulos no dataset.
+   - Verifica se há dados duplicados.
+   - Exibe uma descrição estatística das colunas numéricas.
+
+3. **Detecção de Outliers:**
+   - Utiliza gráficos de caixa (boxplot) para identificar outliers.
+   - Exibe outliers com valores superiores a 950 na coluna `Total`.
+
+4. **Média de Preço por Linha de Produto:**
+   - Calcula a média de preço por linha de produto.
+
+5. **Análise por Filial:**
+   - Agrega os dados por filial e exibe o valor total de vendas por filial utilizando um gráfico de barras.
+
+6. **Análise por Linha de Produto:**
+   - Agrega os dados por linha de produto e exibe o valor total de vendas por linha de produto em um gráfico de barras.
+
+7. **Análise de Quantidade de Itens Vendidos por Linha de Produto:**
+   - Calcula a quantidade total de itens vendidos por linha de produto e exibe um gráfico de linha.
+
+8. **Análise por Cidade:**
+   - Agrupa os dados por cidade e exibe a soma do valor de vendas por cidade utilizando gráficos de pizza e barras.
+
+9. **Análise por Método de Pagamento:**
+   - Agrega os dados por tipo de pagamento e exibe a soma da quantidade de itens vendidos por método de pagamento.
+
+10. **Análise por Gênero:**
+    - Agrega os dados por gênero e exibe a soma do valor de vendas por gênero.
+    - Filtra os dados para análises separadas por gênero (feminino e masculino).
+
+11. **Comparação entre Gêneros:**
+    - Compara as vendas entre os gêneros para diferentes linhas de produtos.
+
+## Justificativa para Não Remover Outliers
+
+Após analisar os dados, percebi que os outliers não são erros, mas sim compras de alto valor, como sofás, geladeiras e bicicletas de corrida, que justificam os valores elevados. O `unit price` não apresenta anomalias, então não há problema com os preços unitários. Em vez de substituir esses valores pela média, decidi mantê-los, pois refletem transações reais e ajudam a entender o comportamento de compra no mercado, especialmente para produtos de alto custo.
+
+## Conclusão
+
+Este projeto fornece uma análise detalhada dos dados de vendas de um supermercado, com insights sobre o comportamento de compras por filial, produto, cidade, gênero e método de pagamento. As visualizações ajudam a identificar padrões e tomar decisões estratégicas com base nos dados.
+
+# Continuidade
+Este dataset é adequado para análises preditivas, utilizando modelos de machine learning para prever vendas e preços futuros
