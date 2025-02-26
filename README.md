@@ -157,5 +157,5 @@ Ao abrir o dataset no Power BI, as colunas numéricas foram interpretadas como t
 
 
 # Arquivo extra
-[Análise Explorátoria de Dados (EDA)](archives/supermarket.py)
+[Análise Explorátoria de Dados (EDA)](archives/supermarket.py)  
 [Readme da analise exploratoria usando Bibliotecas Python](archives/README)
